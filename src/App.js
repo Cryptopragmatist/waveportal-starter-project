@@ -4,7 +4,7 @@ import './App.css';
 
 export default function App() {
 
-  const wave = () => {
+  const salute = () => {
     
   }
   
@@ -13,15 +13,15 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        🖖 Live long and prosper!
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        Maggot! Connect your Ethereum wallet and salute at me!
         </div>
 
-        <button className="waveButton" onClick={wave}>
-          Wave at Me
+        <button className="saluteButton" onClick={salute}>
+          Salute at Me, mofo!
         </button>
       </div>
     </div>
